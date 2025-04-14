@@ -39,3 +39,6 @@ The broader societal implications of this paper could include **friction with ar
 The major stakeholders of this problem are us (the creators of the algorithm) and users of the program. There aren't many extreme consequences to a mistake in this program. If the model learns incorrectly and outputs a "bad" sketch, the user can simply rerun the algorithm to try and generate a better sketch or stop using the algorithm if it doesn't work consistently. Since this model doesn't try and mimic a style, there is no harm to artists.
 
 ## Division of Labor:
+- Apoorva: MLP implementation for stroke placement, image preprocessing, documentation
+- Fiona: MLP implementation for stroke placement, testing, documentation
+- Sophie: MLP implementation for simplification, testing, documentation
