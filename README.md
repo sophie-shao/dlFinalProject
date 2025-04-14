@@ -17,7 +17,7 @@ We want to be able to convert images into lofi sketches by implementing the exis
 
 * Related works include CLIPasso, which focused on single object sketching, while CLIPascene extends this to complex scenes by separating foreground and background elements. CLIPasso converts images of objects into abstract sketches by leveraging the semantic understanding capabilities of CLIP (Contrastive Language-Image Pretraining). The degree of abstraction in CLIPasso is controlled by varying the number of strokes used to create the sketch and generates sketches that can effectively capture both the semantics and structure of subjects like flamingos and horses. However, the performance decreases for images with backgrounds, especially at higher abstraction levels. This is where CLIPascene builds off from.
 * Public implementations:
-  1. https://github.com/yael-vinker/SceneSketch
+  1. https://clipasso.github.io/clipasso/
 
 ## Data:
 We plan on using a **variety of scene images**, from images with complex backgrounds to primarily foreground objects. 
