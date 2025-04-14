@@ -20,8 +20,10 @@ We want to be able to convert images into lofi sketches by implementing the exis
   1. https://github.com/yael-vinker/SceneSketch
 
 ## Data:
+We plan on using a **variety of scene images**, from images with complex backgrounds to primarily foreground objects. 
 
-* 
+* An existing image dataset, **Flickr30k contains around 30,000 images from Flickr**. Although it was originally used in image captioning tasks, the dataset covers a large range of various scenes, so it may also be suitable for sketch generation. If the dataset is insufficient, we might add images to our dataset so that it spans different domains or types.
+* For preprocessing, we may need to **resize and normalize** so that all images have the same resolution and **segment images into foreground and background** so that the sketch captures the most important part of the image.
 
 ## Metholodology:
 For this project, we will need to train 2 MLPs. The MLP receives an initial set of control points and returns a vector of offsets with respects to the initial stroke locations. For a given n levels of fidelity and m levels of simplicity, we first construct a sketch abstraction matrix of size m * n . We name one axis the fidelity axis and the other the simplicity axis. We first produce a set of sketches along the fidelity axis which fills in the first row of our matrix. Then for each of these sketches, we perform an iterative simplification to complete each column of the matrix. We train a second MLP for this task. This second MLP receives a random-valued vector and learns an n-dimensional vector representing the probability of the i-th stroke appearing in the final sketch and outputs a simplified sketch. We think the hardest part of this project will be successfully training the MLPs to work in conjunction to generate good outputs.
