@@ -7,7 +7,7 @@ Apoorva Talwalkar (`atalwalk`), Sophie Shao (`swshao`), Fiona Fan (`ffan7`)
 
 ## Introduction:
 
-We want to be able to convert images into lofi sketches by implementing the existing paper NeuralSVG [https://arxiv.org/pdf/2501.03992]
+We want to be able to convert images into lofi sketches by implementing the existing paper [CLIPascene](https://arxiv.org/pdf/2211.17256) 
 
 * The paper's objective is to ...
 * We chose this paper because
