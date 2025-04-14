@@ -3,7 +3,7 @@
 ### Title: Sketchy Business
 
 ### Members: 
-Apoorva Talwalkar atalwalk, Sophie Shao swshao, Fiona Fan ffan7
+Apoorva Talwalkar (`atalwalk`), Sophie Shao (`swshao`), Fiona Fan (`ffan7`)
 
 ## Introduction:
 
