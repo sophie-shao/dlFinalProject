@@ -7,11 +7,11 @@ Apoorva Talwalkar (`atalwalk`), Sophie Shao (`swshao`), Fiona Fan (`ffan7`)
 
 ## Introduction:
 
-We want to be able to convert images into lofi sketches by implementing the existing paper [CLIPascene](https://arxiv.org/pdf/2211.17256) 
+We want to be able to convert images into lofi sketches by implementing the existing paper [CLIPascene](https://arxiv.org/pdf/2211.17256).
 
-* The paper's objective is to ...
-* We chose this paper because
-* The type of problem is computer vision
+* CLIPascene's objective is to **convert an input image into a customizable sketch** based off of two parameters of abstraction-- fidelity and visual simplicity. Fidelity determines how closely the output sketch matches the original input image and visual simplicity controls how sparse the sketch is.
+* We chose this paper because it provides a **straightforward approach to transforming images into a new artistic style** while giving users some adjustability. Its methods also form the foundation for more advanced projects, for instance NeuralSVG, which means we can build on it later to tackle more complex transformations. We think it’s especially **valuable for artists and designers** because it helps them explore ideas, create visual drafts, and speed up the creative process.
+* The type of problem is **generative computer vision**
 
 ## Related Work:
 
