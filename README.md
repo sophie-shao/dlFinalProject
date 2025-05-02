@@ -1,4 +1,4 @@
-# dlFinalProject
+# dlFinalProject (Initial Proposal)
 
 ### Title: Sketchy Business
 
